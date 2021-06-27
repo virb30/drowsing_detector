@@ -13,7 +13,8 @@ The predictor is loaded using the `dlib` package.
 ## Usage
 
 - Clone this repo
-- Navigate to directory
+- Navigate to project directory
+- Download the trained model
 - Install the dependencies
 - Set the WEBCAM index (through environment variable or code)
 - Run
@@ -21,6 +22,7 @@ The predictor is loaded using the `dlib` package.
 ```shell
 git clone https://github.com/virb30/drowsing_detector.git drowsing_detector
 cd drowsing_detector
+wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 pip install -r requirements.txt
 # export WEBCAM=1
 set WEBCAM=1
@@ -34,3 +36,9 @@ Installation of `dlib` on Windows can be tricky.
 Follow these SO instructions if needed:
 
 https://stackoverflow.com/questions/41912372/dlib-installation-on-windows-10
+
+## References
+
+For more details about the original project that inspired this one can be found on:
+
+https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/
