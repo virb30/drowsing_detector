@@ -4,7 +4,7 @@ This project was inspired by Sigmoidal's Computer Vision Master Class
 and Adrian Rosebroke Article.
 
 We use a shape predictor 68 face landmarks model to detect the
-face points that represents eyes, mouth, jaw, eyebrowns and nose.
+face points that represents eyes, mouth, jaw, eyebrows and nose.
 With this points we were able to detect how much the eyes are open/closed and
 trigger some alert depending on it's value.
 
